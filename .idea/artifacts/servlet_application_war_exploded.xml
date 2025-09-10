@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="servlet-application:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/servlet_application_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="servlet-application" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.6.0" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.31.0" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.38" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="servlet-application/web/Web" />
+    </root>
+  </artifact>
+</component>
